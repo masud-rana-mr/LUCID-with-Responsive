@@ -1,0 +1,186 @@
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  .banner-content {
+    width: 100%;
+    padding: 50px 0px;
+  }
+  .banner-content .extra {
+    margin-left: 12px;
+  }
+  .features-section {
+    width: 100%;
+    padding: 50px 0px;
+  }
+  .features-section .inner-content {
+    width: 100%;
+    padding: 20px 10px;
+    text-align: center;
+  }
+  .inner-content h4 {
+    font-size: 18px;
+  }
+  .features-section .title{
+    font-size: 40px;
+  }
+  .about-section{
+    padding: 60px 0px;
+  }
+  .about-section ul{
+    padding: 0;
+  }
+  .about-phone {
+    padding: 60px 0px;
+  }
+  .about-phone .row{
+    flex-direction: column;
+  }
+  .content-middle {
+    padding: 0;
+  }
+  .content-middle .divider-l{
+    padding: 0 auto;
+  }
+  .testimonial-section {
+    padding: 60px 0;
+  }
+  .download-section {
+    padding: 60px 0;
+  }
+  .btn-primary {
+    margin: 12px 5px;
+  }
+  .btn-download {
+    padding: 10px 25px;
+  }
+  .pricing-section {
+    padding: 60px 0;
+  }
+  .table-heading h2{
+    font-size: 25px;
+  }
+  .table-heading{
+    padding: 15px 20px;
+  }
+  .table-pricing{
+    padding: 10px 20px;
+  }
+  .btn-pricing{
+    padding: 10px 10px;
+    font-size: 15px;
+  }
+  .contact-us {
+    padding-top: 60px;
+  }
+  .text-center {
+    margin-bottom: -30px;
+  }
+  .contact-form{
+    margin-top: 20px;
+  }
+  .offset-md-7 {
+    margin: 5px auto;
+  }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  .banner-content {
+    width: 100%;
+    padding: 40px 0px;
+  }
+  .banner-content .extra {
+    margin-left: 12px;
+  }
+  .features-section {
+    width: 100%;
+    padding: 40px 0px;
+  }
+  .features-section .title {
+    margin: 10px 0;
+    font-size: 30px;
+  }
+  .features-section .inner-content{
+    padding: 10px 18pxs;
+  }
+  .about-section{
+    padding: 40px 0px;
+  }
+  .about-section .title{
+    font-size: 30px;
+    margin: 0px;
+  }
+  .about-section .divider-l{
+    margin-bottom: 5px;
+  }
+  .about-section ul{
+    padding: 0;
+  }
+  .about-phone {
+    padding: 40px 0px;
+  }
+  .content-middle {
+    padding: 20px 0px;
+  }
+  .about-phone .title{
+    font-size: 32px;
+  }
+  .about-phone .divider-l {
+    margin-bottom: 10px;
+  }
+  .about-phone .row{
+    flex-direction: column;
+  }
+  .about-phone .custom-img{
+    width: 80%;
+  }
+  .testimonial-section {
+    padding: 40px 0;
+  }
+  .testimonial-section .divider-c {
+    margin-bottom: -30px;
+  }
+  .download-section {
+    padding: 40px 0;
+  }
+  .pricing-section {
+    padding: 40px 0;
+  }
+  .pricing-section .divider-c {
+    margin-bottom: 0px;
+  }
+  .pricing-section .title{
+    font-size: 32px;
+  }
+  .table-heading{
+    padding: 10px 15px;
+  }
+  .table-pricing{
+    padding: 10px 15px;
+  }
+  .text-center{
+    margin-top: 20px;
+  }
+  .contact-us {
+    padding-top: 40px;
+  }
+  .contact-us .contact-text {
+    margin-top: 0px;
+    padding: 10px;
+  }
+  .offset-md-7{
+    display: flex;
+    justify-content: center;
+  }
+  
+}
